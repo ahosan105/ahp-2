@@ -1,0 +1,136 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+}
+.header-section{
+	background:url(../img/banner.png);
+	min-height:625px;
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	position:relative;
+}
+.overlay{
+	background:rgba(0,0,0,0.6);
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+.container{
+	width:90%;
+	padding-left:15px;
+	padding-right:15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+/* navbar css */
+.menu-row{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+height:50px;
+align-items:center; 
+}
+.left-side{
+	flex-basis:6%;
+}
+.left-side img{
+	width:100%;
+	height:auto;
+}
+.right-side{
+	flex-basis:94%;
+}
+
+.nav-menu{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+	list-style:none;
+}
+.nav-menu li{
+	margin-left:5px;
+	margin-right:5px;
+	padding-leght:10px;
+	padding-toft:10px;
+	padding-rip:10px;
+	padding-bottom:10px;
+}
+.nav-menu li a{
+	text-decoration:none;
+	font-size:14px;
+	text-transform:uppercase;
+	color:#fff;
+	font-weight:500;
+	
+}
+.nav-menu li a:hover{
+	color:#e5e5e5;
+}
+
+/* Hero Section css */
+.hero-section{
+	height:530px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.hero-row{
+	display:flex;
+	flex-direction:row;
+  flex-wrap:wrap;
+}
+.hero-col-1{
+	text-align:center;
+	flex-basis:100%;
+}
+.hero-col-1 h1{
+	font-size:50px;
+	line-height:1.6;
+	color:#fff;
+}
+.hero-col-1 p{
+    line-height:30px;
+	color:#fff;
+	font-size:18px;
+	margin-bottom:30px;
+}
+.hero-col-1 .btn-1{
+  font-size:17px;
+	color:#fff;
+	font-size:18px;
+	background:#ff646a;
+	text-decoration:none;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
+	border:2px solid #ff646a;
+	margin-right:20px;
+}
+.hero-col-1 .btn-1:hover{
+	background:transparent;
+}
+
+.hero-col-1 .btn-2{
+  font-size:17px;
+	color:#fff;
+	font-size:18px;
+	text-decoration:none;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
+	border:2px solid #ff646a;
+}
+.hero-col-1 .btn-2:hover{
+  background:#ff646a;
+}
+
